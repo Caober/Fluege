@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{045D3E9E-59CD-488F-8C1F-9C8032191AB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{86415A8C-A2C1-4D6B-B505-C60FA1D11843}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Fluege", "src\Fluege\Fluege.xproj", "{11EEE37B-05AC-471C-8A39-42AA6AA95A63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11EEE37B-05AC-471C-8A39-42AA6AA95A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11EEE37B-05AC-471C-8A39-42AA6AA95A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11EEE37B-05AC-471C-8A39-42AA6AA95A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11EEE37B-05AC-471C-8A39-42AA6AA95A63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11EEE37B-05AC-471C-8A39-42AA6AA95A63} = {045D3E9E-59CD-488F-8C1F-9C8032191AB0}
+	EndGlobalSection
+EndGlobal
